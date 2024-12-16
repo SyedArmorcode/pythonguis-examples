@@ -1,22 +1,27 @@
+name: ArmorCode
 
+env:
+  armorcodehost: https://app.armorcode.com
+  product: Juice Shop
+  subProduct: JuiceShop- FrontEnd
+  environment: Production
+  token: 785a765d-1b0e-4759-99b8-27f17de1e777
+  buildTool: CIRCLE_CI
+  buildNumber: ${{github.run_number}}
+  end: 30
+  
+on:
+  # Triggers the workflow on push request events
+  push:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 jobs:
-  armorcode-validate:
-    docker:
-      - image: byrnedo/alpine-curl
-    environment:
-      armorcodehost: https://app.armorcode.com
-      product: Juice Shop
-      subProduct: JuiceShop- FrontEnd
-      environment: Production
-      token: $ARMORCODE_TOKEN
-      buildTool: CIRCLE_CI
-      buildNumber: "<< pipeline.number >>"
-      end: 30
+  build:
+    runs-on: ubuntu-latest
+    # ArmorCode Validation Step
     steps:
-      - run:
-          name: "Armorcode Validate"
-          command: |
-              token=785a765d-1b0e-4759-99b8-27f17de1e777
-              wget https://app.armorcode.com/static/scripts/slastatus.sh
-              sh slastatus.sh
-
+      - name: ArmorCode Validation
+        run: |
+          wget https://app.armorcode.com/static/scripts/slastatus.sh
+          sh slastatus.sh
