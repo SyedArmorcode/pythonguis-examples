@@ -6,7 +6,7 @@ env:
   subProduct: agent
   environment: Production
   token: 785a765d-1b0e-4759-99b8-27f17de1e777
-  buildTool: BAMBOO
+  buildTool: BUILDKIE
   buildNumber: ${{github.run_number}}
   end: 30
   
