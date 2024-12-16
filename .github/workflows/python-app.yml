@@ -2,11 +2,11 @@ name: ArmorCode
 
 env:
   armorcodehost: https://app.armorcode.com
-  product: Juice Shop
-  subProduct: JuiceShop- FrontEnd
+  product: Pet-Clinic
+  subProduct: agent
   environment: Production
   token: 785a765d-1b0e-4759-99b8-27f17de1e777
-  buildTool: AZURE_PIPELINE
+  buildTool: GITLAB_CI
   buildNumber: ${{github.run_number}}
   end: 30
   
