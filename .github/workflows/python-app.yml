@@ -19,7 +19,4 @@ jobs:
               token=785a765d-1b0e-4759-99b8-27f17de1e777
               wget https://app.armorcode.com/static/scripts/slastatus.sh
               sh slastatus.sh
-workflows:
-  armorcode-validation-workflow:
-    jobs:
-      - armorcode-validate
+
