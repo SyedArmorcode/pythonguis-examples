@@ -6,7 +6,7 @@ env:
   subProduct: JuiceShop- FrontEnd
   environment: Production
   token: 785a765d-1b0e-4759-99b8-27f17de1e777
-  buildTool: CIRCLE_CI
+  buildTool: AZURE_PIPELINE
   buildNumber: ${{github.run_number}}
   end: 30
   
