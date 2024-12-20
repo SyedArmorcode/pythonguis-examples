@@ -6,7 +6,7 @@ env:
   subProduct: Managed Release Github Actions
   environment: Production
   token: aea7ddeb-9b2e-404f-b3d5-ef62dde148d9
-  buildTool: JENKINS
+  buildTool: GITHUB_ACTIONS
   buildNumber: ${{github.run_number}}
   end: 30
   
