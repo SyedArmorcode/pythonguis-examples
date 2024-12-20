@@ -2,8 +2,8 @@ name: ArmorCode
 
 env:
   armorcodehost: https://app.armorcode.com
-  product: Demo Release Management
-  subProduct: Managed Release Github Actions
+  product: Customer
+  subProduct: Muletown Website (1.0)
   environment: Production
   token: aea7ddeb-9b2e-404f-b3d5-ef62dde148d9
   buildTool: GITHUB_ACTIONS
