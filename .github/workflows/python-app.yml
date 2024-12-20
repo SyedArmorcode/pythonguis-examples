@@ -2,11 +2,11 @@ name: ArmorCode
 
 env:
   armorcodehost: https://app.armorcode.com
-  product: Mobile App - Andriod
-  subProduct: Android (3.2.55.6)
+  product: Mobile
+  subProduct: iOS Client (1.0)
   environment: Production
-  token: 0ef916a9-502e-4057-99b9-40a915c5ec98
-  buildTool: AZURE_PIPELINE
+  token: ff49f356-caa3-461d-ac69-eb16349262a8
+  buildTool: JENKINS
   buildNumber: ${{github.run_number}}
   end: 30
   
