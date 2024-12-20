@@ -2,11 +2,11 @@ name: ArmorCode
 
 env:
   armorcodehost: https://app.armorcode.com
-  product: JuiceShop
-  subProduct: JuiceShop-FrontEnd
+  product: Auth API (3.3.22.799)
+  subProduct: Auth-API
   environment: Production
-  token: 785a765d-1b0e-4759-99b8-27f17de1e777
-  buildTool: AZURE_PIPELINE
+  token: 0ef916a9-502e-4057-99b9-40a915c5ec98
+  buildTool: JENKINS
   buildNumber: ${{github.run_number}}
   end: 30
   
