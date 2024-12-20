@@ -2,8 +2,8 @@ name: ArmorCode
 
 env:
   armorcodehost: https://app.armorcode.com
-  product: Mobile
-  subProduct: iOS Client (1.0)
+  product: Demo Release Management
+  subProduct: Managed Release Github Actions
   environment: Production
   token: ff49f356-caa3-461d-ac69-eb16349262a8
   buildTool: JENKINS
