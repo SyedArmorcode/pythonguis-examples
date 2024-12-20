@@ -5,7 +5,7 @@ env:
   product: Demo Release Management
   subProduct: Managed Release Github Actions
   environment: Production
-  token: ff49f356-caa3-461d-ac69-eb16349262a8
+  token: aea7ddeb-9b2e-404f-b3d5-ef62dde148d9
   buildTool: JENKINS
   buildNumber: ${{github.run_number}}
   end: 30
